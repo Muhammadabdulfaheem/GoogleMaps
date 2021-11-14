@@ -44,6 +44,8 @@ class ViewController: UIViewController {
         //self.showingThePath(tandoAdam, karachi)
         //self.drawMap(tandoAdam, karachi)
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(moveBike), userInfo: nil, repeats: true)
+        
+        
     
        
     }
